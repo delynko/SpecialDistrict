@@ -116,7 +116,7 @@ define(['dojo/_base/declare',
                     // once search is complete, change html to show/hide elements
                     $("#new-search").removeClass('hidden');
                     $("#initial-search").addClass('hidden');
-                    $("#results-list").html("<h2>Special Districts for <b><em>" + this.value + "</em></b></h2>");
+                    $("#results-list").html(`<h2>Special Districts for <b><em>${this.value}</em></b></h2>`);
                     $("#results-list").removeClass('hidden');                
                 })
             },
@@ -191,7 +191,7 @@ define(['dojo/_base/declare',
                         
                         var layerDiv = document.createElement('div');
                         layerDiv.id = layerName;
-                        layerDiv.innerHTML = ("<br>District: " + layerName);
+                        layerDiv.innerHTML = (`<br>District Type: <em>${layerName}</em>`);
                         resultList.appendChild(layerDiv);
                         
                         for (var t = 0; t < featureSet.features.length; t++) {
@@ -200,11 +200,11 @@ define(['dojo/_base/declare',
                             
                             if (featureSet.features[t].attributes.hasOwnProperty("NAME")){
                                 nameDiv.id = featureSet.features[t].attributes.NAME;
-                                nameDiv.innerHTML = ("&nbsp;&nbsp;&nbsp;Name: <b>" + featureSet.features[t].attributes.NAME + "</b>")
+                                nameDiv.innerHTML = (`&nbsp;&nbsp;&nbsp;Name: <b>${featureSet.features[t].attributes.NAME}</b>`)
                                 layerDiv.appendChild(nameDiv);
                             } else {
                                 nameDiv.id = featureSet.features[t].attributes.DISTRICT;
-                                nameDiv.innerHTML = ("&nbsp;&nbsp;&nbsp;District: <b>" + featureSet.features[t].attributes.DISTRICT + "</b>")
+                                nameDiv.innerHTML = (`&nbsp;&nbsp;&nbsp;District: <b>${featureSet.features[t].attributes.DISTRICT}</b>`)
                                 layerDiv.appendChild(nameDiv);
                             }
                         }
