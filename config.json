@@ -1,0 +1,14 @@
+{
+    "addressSearchURL": "https://services3.arcgis.com/9ntQlfNHEhmpX4cl/ArcGIS/rest/services/Address/FeatureServer/1",
+    "parkDistrictURL": "https://services3.arcgis.com/9ntQlfNHEhmpX4cl/arcgis/rest/services/Park_District/FeatureServer/1",
+    "regionalTransportationDistrictURL": "https://services3.arcgis.com/9ntQlfNHEhmpX4cl/ArcGIS/rest/services/Regional_Transportation_District/FeatureServer/1",
+    "waterDistrictURL": "https://services3.arcgis.com/9ntQlfNHEhmpX4cl/arcgis/rest/services/Water_District/FeatureServer/1",
+    "watAndSanDistrictURL": "https://services3.arcgis.com/9ntQlfNHEhmpX4cl/ArcGIS/rest/services/Water_and_Sanitation_District/FeatureServer/1",
+    "urbanRenewDistrictURL": "https://services3.arcgis.com/9ntQlfNHEhmpX4cl/arcgis/rest/services/Urban_Renewal_District/FeatureServer/1",
+    "ambulanceDistrict": "https://services3.arcgis.com/9ntQlfNHEhmpX4cl/arcgis/rest/services/Ambulance_District/FeatureServer/1",
+    "fireDistrict": "https://services3.arcgis.com/9ntQlfNHEhmpX4cl/arcgis/rest/services/Fire_District/FeatureServer/1",
+    "improvementDistrict": "https://services3.arcgis.com/9ntQlfNHEhmpX4cl/arcgis/rest/services/Improvement_District/FeatureServer/1",
+    "metroDistrict": "https://services3.arcgis.com/9ntQlfNHEhmpX4cl/arcgis/rest/services/Metropolitan_District/FeatureServer/1",
+    "fireBondDistrict": "https://services3.arcgis.com/9ntQlfNHEhmpX4cl/arcgis/rest/services/Fire_Bond_District/FeatureServer/1",
+    "sanitationDistrict": "https://services3.arcgis.com/9ntQlfNHEhmpX4cl/arcgis/rest/services/Sanitation_District/FeatureServer/1"    
+}
