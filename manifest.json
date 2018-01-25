@@ -14,7 +14,7 @@
 		"inPanel":true,
 		"hasLocale": true,
 		"hasStyle":true,
-		"hasConfig":true,
+		"hasConfig":false,
 		"hasUIFile":true,
 		"hasSettingPage":true,
 		"hasSettingUIFile":true,
